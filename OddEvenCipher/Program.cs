@@ -26,6 +26,11 @@ namespace OddEvenCipher
             Console.WriteLine();
             Console.WriteLine("String after decryption: " + decrypted);
 
+            while (Console.ReadLine() != "exit")
+            {
+
+            }
+
         }
 
         public static string Decrypt(string inputEncrypt)
